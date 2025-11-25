@@ -5,7 +5,6 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/michaelgermini/MML-Minimal-Markup-Language-for-Constrained-Environments-Le-Langage-Minimal-Universel/actions)
 [![Documentation](https://img.shields.io/badge/docs-complete-blue.svg)](introduction.md)
 [![Tutorial](https://img.shields.io/badge/tutorial-interactive-orange.svg)](tutorial/)
-[![Web Validator](https://img.shields.io/badge/validator-online-purple.svg)](web-validator/)
 
 ## Design, Syntax, Architecture, Transmission and Applications of the Minimal Markup Language
 
@@ -95,12 +94,12 @@
 │  │ • Node.js   │    │ • Servers   │    │ • Real-time │         │
 │  └─────────────┘    └─────────────┘    └─────────────┘         │
 │                                                                 │
-│  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐         │
-│  │    RUST     │    │     GO      │    │  VALIDATOR  │         │
-│  │             │    │             │    │              │         │
-│  │ • High perf│    │ • Services  │    │ • Online     │         │
-│  │ • Security  │    │ • Cloud     │    │ • Web       │         │
-│  └─────────────┘    └─────────────┘    └─────────────┘         │
+│  ┌─────────────┐    ┌─────────────┐                            │
+│  │    RUST     │    │     GO      │                            │
+│  │             │    │             │                            │
+│  │ • High perf│    │ • Services  │                            │
+│  │ • Security  │    │ • Cloud     │                            │
+│  └─────────────┘    └─────────────┘                            │
 │                                                                 │
 │  ┌─────────────────────────────────────────────────────────────┐ │
 │  │                 APPLICATIONS                                 │ │
@@ -206,15 +205,6 @@ All examples are available in three formats for comparison. Here's how MML compa
 | **Go** | ✅ Complete | Services, Cloud | ⭐⭐⭐⭐ | ~40KB |
 
 ### 🛠️ Tools and services
-
-#### **Web Validator** 🌐
-```bash
-# Complete web interface
-# Real-time validation
-# HTML/JSON conversions
-# Detailed statistics
-```
-→ **[Access the validator](web-validator/)**
 
 #### **CLI Tools** 💻
 ```bash
@@ -381,7 +371,6 @@ implementations/
 #### **New tools**
 ```
 bin/                  # CLI tools
-web-validator/        # Web tools
 vscode-extension/     # IDE extensions
 ```
 
