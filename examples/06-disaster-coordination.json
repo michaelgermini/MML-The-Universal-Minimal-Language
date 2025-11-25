@@ -1,0 +1,103 @@
+{
+  "type": "document",
+  "title": "Disaster Coordination Report",
+  "metadata": {
+    "Event ID": "DIS-2025-001",
+    "Type": "Earthquake",
+    "Magnitude": "6.5",
+    "Date": "2025-11-15T08:30:00Z",
+    "Location": "Region Delta - 43.5N 1.4W"
+  },
+  "sections": [
+    {
+      "type": "section",
+      "title": "Damage Assessment",
+      "metadata": {
+        "Affected Area": "5 km²",
+        "Buildings Destroyed": "80%",
+        "Buildings Damaged": "15%",
+        "Casualties": "12 missing, 45 injured, 3 confirmed dead"
+      },
+      "children": []
+    },
+    {
+      "type": "section",
+      "title": "Current Situation",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Electricity cut in northern sector"
+        },
+        {
+          "type": "paragraph",
+          "content": "Access roads blocked by debris"
+        },
+        {
+          "type": "paragraph",
+          "content": "Emergency services deployed"
+        },
+        {
+          "type": "paragraph",
+          "content": "Evacuation centers established"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Required Resources",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Rescue team: 20 people minimum"
+        },
+        {
+          "type": "paragraph",
+          "content": "Heavy equipment: Priority"
+        },
+        {
+          "type": "paragraph",
+          "content": "Medical supplies: Urgent"
+        },
+        {
+          "type": "paragraph",
+          "content": "Shelter: 200 people capacity"
+        },
+        {
+          "type": "paragraph",
+          "content": "Food and water: 3 days supply"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Coordination Points",
+      "metadata": {
+        "Command Center": "43.5N 1.4W",
+        "Radio Frequency": "145.500 MHz",
+        "Contact": "Emergency Operations Center"
+      },
+      "children": []
+    }
+  ],
+  "links": [
+    {
+      "type": "link",
+      "text": "Damage Map",
+      "url": "damage-assessment-map.png"
+    },
+    {
+      "type": "link",
+      "text": "Resource Request Form",
+      "url": "resource-request.pdf"
+    }
+  ],
+  "quotes": [
+    {
+      "type": "quote",
+      "content": "URGENT: All available resources needed immediately"
+    }
+  ]
+}
+

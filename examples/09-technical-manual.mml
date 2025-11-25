@@ -1,0 +1,39 @@
+T:Equipment Manual - Air Compressor CA-200
+M:Model|CA-200
+M:Manufacturer|TechCorp Industries
+M:Version|2.1
+M:Last Revision|2025-11-15
+
+H:Installation
+P:Place compressor on stable horizontal surface.
+P:Ensure adequate ventilation around unit.
+P:Check electrical supply: 220V, 50Hz required.
+P:Verify all connections are secure.
+
+H:Operation
+P:Start compressor using main power switch.
+P:Monitor pressure gauge during operation.
+P:Normal operating pressure: 8-10 bar.
+P:Shut down using proper procedure.
+
+H:Maintenance
+M:Daily|Check oil level, drain condensate
+M:Weekly|Clean air filter, inspect hoses
+M:Monthly|Change oil, check belts
+M:Quarterly|Full service inspection
+
+H:Troubleshooting
+P:No pressure: Check fuse, verify power supply.
+P:Abnormal noise: Check oil level, inspect moving parts.
+P:Overheating: Clean air filter, check ventilation.
+P:Leaks: Inspect hoses and connections.
+
+C:# Emergency shutdown procedure
+C:1. Press emergency stop button
+C:2. Turn off main power switch
+C:3. Release pressure from system
+C:4. Contact maintenance if needed
+
+L:Service Manual|service-manual-ca200.pdf
+L:Spare Parts List|parts-list-ca200.pdf
+

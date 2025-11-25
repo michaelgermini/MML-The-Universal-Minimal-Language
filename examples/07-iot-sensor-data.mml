@@ -1,0 +1,27 @@
+PKT:SENSOR-ENV-001
+T:Environmental Sensor Data
+M:Sensor ID|ENV-SENSOR-ALPHA-01
+M:Location|45.23N,2.45E
+M:Timestamp|2025-11-15T14:30:00Z
+M:Battery Level|87%
+
+H:Real-time Readings
+M:Temperature|23.4°C
+M:Humidity|65%
+M:Air Quality|42 µg/m³
+M:Pressure|1013.2 hPa
+M:Light Level|850 lux
+M:Noise Level|45 dB
+
+H:Sensor Status
+M:Status|Operational
+M:Last Maintenance|2025-10-01
+M:Next Maintenance|2025-12-01
+M:Signal Strength|85%
+
+H:Alerts
+P:Air quality slightly elevated but within acceptable range.
+P:No immediate action required.
+
+END
+

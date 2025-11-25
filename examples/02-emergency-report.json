@@ -1,0 +1,89 @@
+{
+  "type": "document",
+  "title": "Emergency Medical Report",
+  "metadata": {
+    "Priority": "URGENT",
+    "Date": "2025-11-15T14:30:00Z",
+    "Location": "Sector Alpha - Coordinates 45.2N 2.1E",
+    "Reporter": "Dr. Sarah Chen"
+  },
+  "sections": [
+    {
+      "type": "section",
+      "title": "Patient Status",
+      "metadata": {
+        "Patient ID": "PAT-001",
+        "Age": "45 years",
+        "Status": "Critical",
+        "Diagnosis": "Multiple fractures, internal bleeding"
+      },
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Patient requires immediate medical attention."
+        },
+        {
+          "type": "paragraph",
+          "content": "Blood pressure dropping, pulse weak."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Required Resources",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Medical team with trauma experience"
+        },
+        {
+          "type": "paragraph",
+          "content": "Blood transfusion equipment"
+        },
+        {
+          "type": "paragraph",
+          "content": "Emergency evacuation helicopter"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Current Actions",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "IV fluids administered"
+        },
+        {
+          "type": "paragraph",
+          "content": "Oxygen mask applied"
+        },
+        {
+          "type": "paragraph",
+          "content": "Stabilization in progress"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "type": "link",
+      "text": "GPS Coordinates",
+      "url": "45.2N,2.1E"
+    },
+    {
+      "type": "link",
+      "text": "Radio Frequency",
+      "url": "148.500 MHz"
+    }
+  ],
+  "quotes": [
+    {
+      "type": "quote",
+      "content": "URGENT: Evacuation required within 30 minutes"
+    }
+  ]
+}
+

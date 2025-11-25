@@ -1,0 +1,109 @@
+{
+  "type": "document",
+  "title": "Equipment Manual - Air Compressor CA-200",
+  "metadata": {
+    "Model": "CA-200",
+    "Manufacturer": "TechCorp Industries",
+    "Version": "2.1",
+    "Last Revision": "2025-11-15"
+  },
+  "sections": [
+    {
+      "type": "section",
+      "title": "Installation",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Place compressor on stable horizontal surface."
+        },
+        {
+          "type": "paragraph",
+          "content": "Ensure adequate ventilation around unit."
+        },
+        {
+          "type": "paragraph",
+          "content": "Check electrical supply: 220V, 50Hz required."
+        },
+        {
+          "type": "paragraph",
+          "content": "Verify all connections are secure."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Operation",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Start compressor using main power switch."
+        },
+        {
+          "type": "paragraph",
+          "content": "Monitor pressure gauge during operation."
+        },
+        {
+          "type": "paragraph",
+          "content": "Normal operating pressure: 8-10 bar."
+        },
+        {
+          "type": "paragraph",
+          "content": "Shut down using proper procedure."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Maintenance",
+      "metadata": {
+        "Daily": "Check oil level, drain condensate",
+        "Weekly": "Clean air filter, inspect hoses",
+        "Monthly": "Change oil, check belts",
+        "Quarterly": "Full service inspection"
+      },
+      "children": []
+    },
+    {
+      "type": "section",
+      "title": "Troubleshooting",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "No pressure: Check fuse, verify power supply."
+        },
+        {
+          "type": "paragraph",
+          "content": "Abnormal noise: Check oil level, inspect moving parts."
+        },
+        {
+          "type": "paragraph",
+          "content": "Overheating: Clean air filter, check ventilation."
+        },
+        {
+          "type": "paragraph",
+          "content": "Leaks: Inspect hoses and connections."
+        },
+        {
+          "type": "code",
+          "content": "# Emergency shutdown procedure\n1. Press emergency stop button\n2. Turn off main power switch\n3. Release pressure from system\n4. Contact maintenance if needed"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "type": "link",
+      "text": "Service Manual",
+      "url": "service-manual-ca200.pdf"
+    },
+    {
+      "type": "link",
+      "text": "Spare Parts List",
+      "url": "parts-list-ca200.pdf"
+    }
+  ]
+}
+

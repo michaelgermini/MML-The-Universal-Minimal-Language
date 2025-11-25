@@ -1,0 +1,147 @@
+{
+  "type": "document",
+  "title": "Basic Survival Guide",
+  "metadata": {
+    "Author": "Survival Expert Team",
+    "Version": "2.0",
+    "Last Updated": "2025-11-15"
+  },
+  "sections": [
+    {
+      "type": "section",
+      "title": "Water Procurement",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Water is more important than food for survival."
+        },
+        {
+          "type": "paragraph",
+          "content": "Find water sources: streams, rivers, morning dew."
+        },
+        {
+          "type": "paragraph",
+          "content": "Always purify water before drinking."
+        },
+        {
+          "type": "paragraph",
+          "content": "Boiling is the most reliable method."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Shelter Building",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Protection from elements is crucial."
+        },
+        {
+          "type": "paragraph",
+          "content": "Use natural materials: branches, leaves, rocks."
+        },
+        {
+          "type": "paragraph",
+          "content": "Build shelter before dark."
+        },
+        {
+          "type": "paragraph",
+          "content": "Insulate from ground to prevent heat loss."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Fire Making",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Fire provides warmth, light, and cooking ability."
+        },
+        {
+          "type": "paragraph",
+          "content": "Collect dry tinder, kindling, and fuel wood."
+        },
+        {
+          "type": "paragraph",
+          "content": "Use friction methods or fire starter if available."
+        },
+        {
+          "type": "paragraph",
+          "content": "Maintain fire once started."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Food Sources",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Plants: Learn to identify edible species."
+        },
+        {
+          "type": "paragraph",
+          "content": "Insects: High protein content."
+        },
+        {
+          "type": "paragraph",
+          "content": "Small game: Traps and snares."
+        },
+        {
+          "type": "paragraph",
+          "content": "Never eat unknown plants or mushrooms."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Signaling for Help",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Create visible signals: smoke, mirrors, bright colors."
+        },
+        {
+          "type": "paragraph",
+          "content": "Use sound: whistle, shouting in patterns."
+        },
+        {
+          "type": "paragraph",
+          "content": "Ground signals: SOS, arrows pointing to location."
+        },
+        {
+          "type": "paragraph",
+          "content": "Stay in one place if rescue is likely."
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "type": "link",
+      "text": "Complete Guide",
+      "url": "https://survival.example.com/guide"
+    }
+  ],
+  "images": [
+    {
+      "type": "image",
+      "description": "Survival Priorities",
+      "url": "survival-priorities.png"
+    }
+  ],
+  "quotes": [
+    {
+      "type": "quote",
+      "content": "Remember: Stay calm, think clearly, prioritize needs."
+    }
+  ]
+}
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <title>Security Incident Report</title>
+  <metadata>
+    <incidentId>SEC-2025-001</incidentId>
+    <date>2025-11-15</date>
+    <time>14:45:00</time>
+    <location>Building A - East Wing</location>
+    <severity>HIGH</severity>
+    <reporter>Security Officer Smith</reporter>
+  </metadata>
+  <sections>
+    <section>
+      <title>Incident Description</title>
+      <paragraph>Unauthorized access attempt detected at main entrance.</paragraph>
+      <paragraph>Individual attempted to bypass security checkpoint.</paragraph>
+      <paragraph>Security personnel intervened immediately.</paragraph>
+      <paragraph>No damage or theft reported.</paragraph>
+    </section>
+    <section>
+      <title>Details</title>
+      <metadata>
+        <timeDetected>14:45:00</timeDetected>
+        <location>Main Entrance - East Wing</location>
+        <method>Attempted badge cloning</method>
+        <outcome>Access denied, individual detained</outcome>
+      </metadata>
+    </section>
+    <section>
+      <title>Response Actions</title>
+      <paragraph>Security team alerted immediately.</paragraph>
+      <paragraph>Individual detained for questioning.</paragraph>
+      <paragraph>Police notified as per protocol.</paragraph>
+      <paragraph>Area secured and checked.</paragraph>
+    </section>
+    <section>
+      <title>Follow-up Required</title>
+      <paragraph>Review security camera footage.</paragraph>
+      <paragraph>Update access control procedures.</paragraph>
+      <paragraph>Staff briefing scheduled.</paragraph>
+      <paragraph>Incident report filed with authorities.</paragraph>
+    </section>
+    <section>
+      <title>Prevention Measures</title>
+      <paragraph>Enhanced badge verification process.</paragraph>
+      <paragraph>Additional security personnel assigned.</paragraph>
+      <paragraph>Access logs reviewed regularly.</paragraph>
+    </section>
+  </sections>
+  <links>
+    <link>
+      <text>Security Camera Footage</text>
+      <url>cam-east-wing-1445.mp4</url>
+    </link>
+    <link>
+      <text>Access Logs</text>
+      <url>access-logs-2025-11-15.csv</url>
+    </link>
+  </links>
+  <quotes>
+    <quote>All security protocols followed correctly.</quote>
+  </quotes>
+</document>
+

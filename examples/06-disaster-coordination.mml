@@ -1,0 +1,35 @@
+T:Disaster Coordination Report
+M:Event ID|DIS-2025-001
+M:Type|Earthquake
+M:Magnitude|6.5
+M:Date|2025-11-15T08:30:00Z
+M:Location|Region Delta - 43.5N 1.4W
+
+H:Damage Assessment
+M:Affected Area|5 km²
+M:Buildings Destroyed|80%
+M:Buildings Damaged|15%
+M:Casualties|12 missing, 45 injured, 3 confirmed dead
+
+H:Current Situation
+P:Electricity cut in northern sector
+P:Access roads blocked by debris
+P:Emergency services deployed
+P:Evacuation centers established
+
+H:Required Resources
+P:Rescue team: 20 people minimum
+P:Heavy equipment: Priority
+P:Medical supplies: Urgent
+P:Shelter: 200 people capacity
+P:Food and water: 3 days supply
+
+H:Coordination Points
+M:Command Center|43.5N 1.4W
+M:Radio Frequency|145.500 MHz
+M:Contact|Emergency Operations Center
+
+L:Damage Map|damage-assessment-map.png
+L:Resource Request Form|resource-request.pdf
+Q:URGENT: All available resources needed immediately
+

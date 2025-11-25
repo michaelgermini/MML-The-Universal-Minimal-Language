@@ -1,0 +1,29 @@
+T:Emergency Medical Report
+M:Priority|URGENT
+M:Date|2025-11-15T14:30:00Z
+M:Location|Sector Alpha - Coordinates 45.2N 2.1E
+M:Reporter|Dr. Sarah Chen
+
+H:Patient Status
+M:Patient ID|PAT-001
+M:Age|45 years
+M:Status|Critical
+M:Diagnosis|Multiple fractures, internal bleeding
+
+P:Patient requires immediate medical attention.
+P:Blood pressure dropping, pulse weak.
+
+H:Required Resources
+P:Medical team with trauma experience
+P:Blood transfusion equipment
+P:Emergency evacuation helicopter
+
+H:Current Actions
+P:IV fluids administered
+P:Oxygen mask applied
+P:Stabilization in progress
+
+Q:URGENT: Evacuation required within 30 minutes
+L:GPS Coordinates|45.2N,2.1E
+L:Radio Frequency|148.500 MHz
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <title>Patient Medical Record</title>
+  <metadata>
+    <patientId>PAT-2025-001</patientId>
+    <name>John Doe</name>
+    <dateOfBirth>1980-05-15</dateOfBirth>
+    <age>45 years</age>
+    <gender>Male</gender>
+    <bloodType>O+</bloodType>
+  </metadata>
+  <sections>
+    <section>
+      <title>Current Visit</title>
+      <metadata>
+        <date>2025-11-15</date>
+        <reason>Routine checkup</reason>
+        <status>Stable</status>
+      </metadata>
+    </section>
+    <section>
+      <title>Vital Signs</title>
+      <metadata>
+        <bloodPressure>120/80 mmHg</bloodPressure>
+        <heartRate>72 bpm</heartRate>
+        <temperature>36.5°C</temperature>
+        <weight>75 kg</weight>
+        <height>175 cm</height>
+      </metadata>
+    </section>
+    <section>
+      <title>Diagnosis</title>
+      <paragraph>Patient in good health.</paragraph>
+      <paragraph>No abnormalities detected.</paragraph>
+      <paragraph>All vital signs within normal range.</paragraph>
+    </section>
+    <section>
+      <title>Prescription</title>
+      <metadata>
+        <medication>None required</medication>
+        <followUp>2026-05-15</followUp>
+      </metadata>
+    </section>
+    <section>
+      <title>Notes</title>
+      <paragraph>Patient advised to maintain current lifestyle.</paragraph>
+      <paragraph>Regular exercise recommended.</paragraph>
+      <paragraph>Next appointment scheduled.</paragraph>
+    </section>
+  </sections>
+</document>
+

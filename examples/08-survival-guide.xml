@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <title>Basic Survival Guide</title>
+  <metadata>
+    <author>Survival Expert Team</author>
+    <version>2.0</version>
+    <lastUpdated>2025-11-15</lastUpdated>
+  </metadata>
+  <sections>
+    <section>
+      <title>Water Procurement</title>
+      <paragraph>Water is more important than food for survival.</paragraph>
+      <paragraph>Find water sources: streams, rivers, morning dew.</paragraph>
+      <paragraph>Always purify water before drinking.</paragraph>
+      <paragraph>Boiling is the most reliable method.</paragraph>
+    </section>
+    <section>
+      <title>Shelter Building</title>
+      <paragraph>Protection from elements is crucial.</paragraph>
+      <paragraph>Use natural materials: branches, leaves, rocks.</paragraph>
+      <paragraph>Build shelter before dark.</paragraph>
+      <paragraph>Insulate from ground to prevent heat loss.</paragraph>
+    </section>
+    <section>
+      <title>Fire Making</title>
+      <paragraph>Fire provides warmth, light, and cooking ability.</paragraph>
+      <paragraph>Collect dry tinder, kindling, and fuel wood.</paragraph>
+      <paragraph>Use friction methods or fire starter if available.</paragraph>
+      <paragraph>Maintain fire once started.</paragraph>
+    </section>
+    <section>
+      <title>Food Sources</title>
+      <paragraph>Plants: Learn to identify edible species.</paragraph>
+      <paragraph>Insects: High protein content.</paragraph>
+      <paragraph>Small game: Traps and snares.</paragraph>
+      <paragraph>Never eat unknown plants or mushrooms.</paragraph>
+    </section>
+    <section>
+      <title>Signaling for Help</title>
+      <paragraph>Create visible signals: smoke, mirrors, bright colors.</paragraph>
+      <paragraph>Use sound: whistle, shouting in patterns.</paragraph>
+      <paragraph>Ground signals: SOS, arrows pointing to location.</paragraph>
+      <paragraph>Stay in one place if rescue is likely.</paragraph>
+    </section>
+  </sections>
+  <links>
+    <link>
+      <text>Complete Guide</text>
+      <url>https://survival.example.com/guide</url>
+    </link>
+  </links>
+  <images>
+    <image>
+      <description>Survival Priorities</description>
+      <url>survival-priorities.png</url>
+    </image>
+  </images>
+  <quotes>
+    <quote>Remember: Stay calm, think clearly, prioritize needs.</quote>
+  </quotes>
+</document>
+

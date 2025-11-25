@@ -1,0 +1,132 @@
+{
+  "type": "document",
+  "title": "Security Incident Report",
+  "metadata": {
+    "Incident ID": "SEC-2025-001",
+    "Date": "2025-11-15",
+    "Time": "14:45:00",
+    "Location": "Building A - East Wing",
+    "Severity": "HIGH",
+    "Reporter": "Security Officer Smith"
+  },
+  "sections": [
+    {
+      "type": "section",
+      "title": "Incident Description",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Unauthorized access attempt detected at main entrance."
+        },
+        {
+          "type": "paragraph",
+          "content": "Individual attempted to bypass security checkpoint."
+        },
+        {
+          "type": "paragraph",
+          "content": "Security personnel intervened immediately."
+        },
+        {
+          "type": "paragraph",
+          "content": "No damage or theft reported."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Details",
+      "metadata": {
+        "Time Detected": "14:45:00",
+        "Location": "Main Entrance - East Wing",
+        "Method": "Attempted badge cloning",
+        "Outcome": "Access denied, individual detained"
+      },
+      "children": []
+    },
+    {
+      "type": "section",
+      "title": "Response Actions",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Security team alerted immediately."
+        },
+        {
+          "type": "paragraph",
+          "content": "Individual detained for questioning."
+        },
+        {
+          "type": "paragraph",
+          "content": "Police notified as per protocol."
+        },
+        {
+          "type": "paragraph",
+          "content": "Area secured and checked."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Follow-up Required",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Review security camera footage."
+        },
+        {
+          "type": "paragraph",
+          "content": "Update access control procedures."
+        },
+        {
+          "type": "paragraph",
+          "content": "Staff briefing scheduled."
+        },
+        {
+          "type": "paragraph",
+          "content": "Incident report filed with authorities."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Prevention Measures",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Enhanced badge verification process."
+        },
+        {
+          "type": "paragraph",
+          "content": "Additional security personnel assigned."
+        },
+        {
+          "type": "paragraph",
+          "content": "Access logs reviewed regularly."
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "type": "link",
+      "text": "Security Camera Footage",
+      "url": "cam-east-wing-1445.mp4"
+    },
+    {
+      "type": "link",
+      "text": "Access Logs",
+      "url": "access-logs-2025-11-15.csv"
+    }
+  ],
+  "quotes": [
+    {
+      "type": "quote",
+      "content": "All security protocols followed correctly."
+    }
+  ]
+}
+

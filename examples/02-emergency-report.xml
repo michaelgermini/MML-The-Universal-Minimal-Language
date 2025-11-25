@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <title>Emergency Medical Report</title>
+  <metadata>
+    <priority>URGENT</priority>
+    <date>2025-11-15T14:30:00Z</date>
+    <location>Sector Alpha - Coordinates 45.2N 2.1E</location>
+    <reporter>Dr. Sarah Chen</reporter>
+  </metadata>
+  <sections>
+    <section>
+      <title>Patient Status</title>
+      <metadata>
+        <patientId>PAT-001</patientId>
+        <age>45 years</age>
+        <status>Critical</status>
+        <diagnosis>Multiple fractures, internal bleeding</diagnosis>
+      </metadata>
+      <paragraph>Patient requires immediate medical attention.</paragraph>
+      <paragraph>Blood pressure dropping, pulse weak.</paragraph>
+    </section>
+    <section>
+      <title>Required Resources</title>
+      <paragraph>Medical team with trauma experience</paragraph>
+      <paragraph>Blood transfusion equipment</paragraph>
+      <paragraph>Emergency evacuation helicopter</paragraph>
+    </section>
+    <section>
+      <title>Current Actions</title>
+      <paragraph>IV fluids administered</paragraph>
+      <paragraph>Oxygen mask applied</paragraph>
+      <paragraph>Stabilization in progress</paragraph>
+    </section>
+  </sections>
+  <links>
+    <link>
+      <text>GPS Coordinates</text>
+      <url>45.2N,2.1E</url>
+    </link>
+    <link>
+      <text>Radio Frequency</text>
+      <url>148.500 MHz</url>
+    </link>
+  </links>
+  <quotes>
+    <quote>URGENT: Evacuation required within 30 minutes</quote>
+  </quotes>
+</document>
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <title>Equipment Manual - Air Compressor CA-200</title>
+  <metadata>
+    <model>CA-200</model>
+    <manufacturer>TechCorp Industries</manufacturer>
+    <version>2.1</version>
+    <lastRevision>2025-11-15</lastRevision>
+  </metadata>
+  <sections>
+    <section>
+      <title>Installation</title>
+      <paragraph>Place compressor on stable horizontal surface.</paragraph>
+      <paragraph>Ensure adequate ventilation around unit.</paragraph>
+      <paragraph>Check electrical supply: 220V, 50Hz required.</paragraph>
+      <paragraph>Verify all connections are secure.</paragraph>
+    </section>
+    <section>
+      <title>Operation</title>
+      <paragraph>Start compressor using main power switch.</paragraph>
+      <paragraph>Monitor pressure gauge during operation.</paragraph>
+      <paragraph>Normal operating pressure: 8-10 bar.</paragraph>
+      <paragraph>Shut down using proper procedure.</paragraph>
+    </section>
+    <section>
+      <title>Maintenance</title>
+      <metadata>
+        <daily>Check oil level, drain condensate</daily>
+        <weekly>Clean air filter, inspect hoses</weekly>
+        <monthly>Change oil, check belts</monthly>
+        <quarterly>Full service inspection</quarterly>
+      </metadata>
+    </section>
+    <section>
+      <title>Troubleshooting</title>
+      <paragraph>No pressure: Check fuse, verify power supply.</paragraph>
+      <paragraph>Abnormal noise: Check oil level, inspect moving parts.</paragraph>
+      <paragraph>Overheating: Clean air filter, check ventilation.</paragraph>
+      <paragraph>Leaks: Inspect hoses and connections.</paragraph>
+      <code>
+        <![CDATA[
+# Emergency shutdown procedure
+1. Press emergency stop button
+2. Turn off main power switch
+3. Release pressure from system
+4. Contact maintenance if needed
+        ]]>
+      </code>
+    </section>
+  </sections>
+  <links>
+    <link>
+      <text>Service Manual</text>
+      <url>service-manual-ca200.pdf</url>
+    </link>
+    <link>
+      <text>Spare Parts List</text>
+      <url>parts-list-ca200.pdf</url>
+    </link>
+  </links>
+</document>
+

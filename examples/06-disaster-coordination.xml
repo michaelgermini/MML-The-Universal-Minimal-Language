@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <title>Disaster Coordination Report</title>
+  <metadata>
+    <eventId>DIS-2025-001</eventId>
+    <type>Earthquake</type>
+    <magnitude>6.5</magnitude>
+    <date>2025-11-15T08:30:00Z</date>
+    <location>Region Delta - 43.5N 1.4W</location>
+  </metadata>
+  <sections>
+    <section>
+      <title>Damage Assessment</title>
+      <metadata>
+        <affectedArea>5 km²</affectedArea>
+        <buildingsDestroyed>80%</buildingsDestroyed>
+        <buildingsDamaged>15%</buildingsDamaged>
+        <casualties>12 missing, 45 injured, 3 confirmed dead</casualties>
+      </metadata>
+    </section>
+    <section>
+      <title>Current Situation</title>
+      <paragraph>Electricity cut in northern sector</paragraph>
+      <paragraph>Access roads blocked by debris</paragraph>
+      <paragraph>Emergency services deployed</paragraph>
+      <paragraph>Evacuation centers established</paragraph>
+    </section>
+    <section>
+      <title>Required Resources</title>
+      <paragraph>Rescue team: 20 people minimum</paragraph>
+      <paragraph>Heavy equipment: Priority</paragraph>
+      <paragraph>Medical supplies: Urgent</paragraph>
+      <paragraph>Shelter: 200 people capacity</paragraph>
+      <paragraph>Food and water: 3 days supply</paragraph>
+    </section>
+    <section>
+      <title>Coordination Points</title>
+      <metadata>
+        <commandCenter>43.5N 1.4W</commandCenter>
+        <radioFrequency>145.500 MHz</radioFrequency>
+        <contact>Emergency Operations Center</contact>
+      </metadata>
+    </section>
+  </sections>
+  <links>
+    <link>
+      <text>Damage Map</text>
+      <url>damage-assessment-map.png</url>
+    </link>
+    <link>
+      <text>Resource Request Form</text>
+      <url>resource-request.pdf</url>
+    </link>
+  </links>
+  <quotes>
+    <quote>URGENT: All available resources needed immediately</quote>
+  </quotes>
+</document>
+

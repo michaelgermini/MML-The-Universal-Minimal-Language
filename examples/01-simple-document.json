@@ -1,0 +1,59 @@
+{
+  "type": "document",
+  "title": "Simple MML Document",
+  "metadata": {
+    "Author": "John Doe",
+    "Date": "2025-11-15",
+    "Version": "1.0"
+  },
+  "sections": [
+    {
+      "type": "section",
+      "title": "Introduction",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "This is a simple example of an MML document."
+        },
+        {
+          "type": "paragraph",
+          "content": "MML stands for Minimal Markup Language."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Features",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Easy to read and write"
+        },
+        {
+          "type": "paragraph",
+          "content": "Transmittable by any means"
+        },
+        {
+          "type": "paragraph",
+          "content": "Resilient to errors"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "type": "link",
+      "text": "Learn more",
+      "url": "https://example.com/mml"
+    }
+  ],
+  "quotes": [
+    {
+      "type": "quote",
+      "content": "Remember: Simplicity is key!"
+    }
+  ]
+}
+

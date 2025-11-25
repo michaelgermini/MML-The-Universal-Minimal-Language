@@ -1,0 +1,24 @@
+T:Weather Bulletin
+M:Station|Weather Station Alpha
+M:Date|2025-11-15
+M:Time|10:00 UTC
+
+H:Current Conditions
+M:Temperature|22°C
+M:Humidity|65%
+M:Wind Speed|15 km/h
+M:Wind Direction|NW
+M:Pressure|1013.2 hPa
+M:Visibility|10 km
+
+H:Forecast
+P:Sunny weather expected throughout the day.
+P:Light winds from northwest.
+P:No precipitation expected.
+
+H:Warnings
+P:None at this time.
+
+IMG:Weather Map|weather-map-2025-11-15.png
+L:Detailed Forecast|https://weather.example.com/forecast
+

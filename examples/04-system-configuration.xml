@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <title>Network Configuration</title>
+  <metadata>
+    <device>Router-001</device>
+    <lastUpdated>2025-11-15T08:00:00Z</lastUpdated>
+    <version>2.1</version>
+  </metadata>
+  <sections>
+    <configuration>
+      <section>Main Network Interface</section>
+      <parameters>
+        <interface>eth0</interface>
+        <ipAddress>192.168.1.100</ipAddress>
+        <subnetMask>255.255.255.0</subnetMask>
+        <gateway>192.168.1.1</gateway>
+        <dnsPrimary>8.8.8.8</dnsPrimary>
+        <dnsSecondary>8.8.4.4</dnsSecondary>
+      </parameters>
+    </configuration>
+    <configuration>
+      <section>Wireless Network</section>
+      <parameters>
+        <ssid>SecureNetwork</ssid>
+        <password>ChangeRequired</password>
+        <channel>6</channel>
+        <encryption>WPA3</encryption>
+        <mode>802.11ac</mode>
+      </parameters>
+    </configuration>
+    <configuration>
+      <section>Services</section>
+      <parameters>
+        <dhcp>Enabled</dhcp>
+        <firewall>Active</firewall>
+        <portForwarding>Disabled</portForwarding>
+        <vpn>Enabled</vpn>
+      </parameters>
+    </configuration>
+    <section>
+      <title>Backup Configuration</title>
+      <paragraph>Configuration backed up daily at 02:00 UTC</paragraph>
+      <paragraph>Retention period: 7 days</paragraph>
+    </section>
+  </sections>
+</document>
+

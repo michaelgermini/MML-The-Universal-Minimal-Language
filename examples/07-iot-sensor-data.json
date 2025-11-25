@@ -1,0 +1,53 @@
+{
+  "type": "packet",
+  "id": "SENSOR-ENV-001",
+  "title": "Environmental Sensor Data",
+  "metadata": {
+    "Sensor ID": "ENV-SENSOR-ALPHA-01",
+    "Location": "45.23N,2.45E",
+    "Timestamp": "2025-11-15T14:30:00Z",
+    "Battery Level": "87%"
+  },
+  "sections": [
+    {
+      "type": "section",
+      "title": "Real-time Readings",
+      "metadata": {
+        "Temperature": "23.4°C",
+        "Humidity": "65%",
+        "Air Quality": "42 µg/m³",
+        "Pressure": "1013.2 hPa",
+        "Light Level": "850 lux",
+        "Noise Level": "45 dB"
+      },
+      "children": []
+    },
+    {
+      "type": "section",
+      "title": "Sensor Status",
+      "metadata": {
+        "Status": "Operational",
+        "Last Maintenance": "2025-10-01",
+        "Next Maintenance": "2025-12-01",
+        "Signal Strength": "85%"
+      },
+      "children": []
+    },
+    {
+      "type": "section",
+      "title": "Alerts",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Air quality slightly elevated but within acceptable range."
+        },
+        {
+          "type": "paragraph",
+          "content": "No immediate action required."
+        }
+      ]
+    }
+  ]
+}
+

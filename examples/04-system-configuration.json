@@ -1,0 +1,60 @@
+{
+  "type": "document",
+  "title": "Network Configuration",
+  "metadata": {
+    "Device": "Router-001",
+    "Last Updated": "2025-11-15T08:00:00Z",
+    "Version": "2.1"
+  },
+  "sections": [
+    {
+      "type": "configuration",
+      "section": "Main Network Interface",
+      "parameters": {
+        "Interface": "eth0",
+        "IP Address": "192.168.1.100",
+        "Subnet Mask": "255.255.255.0",
+        "Gateway": "192.168.1.1",
+        "DNS Primary": "8.8.8.8",
+        "DNS Secondary": "8.8.4.4"
+      }
+    },
+    {
+      "type": "configuration",
+      "section": "Wireless Network",
+      "parameters": {
+        "SSID": "SecureNetwork",
+        "Password": "ChangeRequired",
+        "Channel": "6",
+        "Encryption": "WPA3",
+        "Mode": "802.11ac"
+      }
+    },
+    {
+      "type": "configuration",
+      "section": "Services",
+      "parameters": {
+        "DHCP": "Enabled",
+        "Firewall": "Active",
+        "Port Forwarding": "Disabled",
+        "VPN": "Enabled"
+      }
+    },
+    {
+      "type": "section",
+      "title": "Backup Configuration",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Configuration backed up daily at 02:00 UTC"
+        },
+        {
+          "type": "paragraph",
+          "content": "Retention period: 7 days"
+        }
+      ]
+    }
+  ]
+}
+

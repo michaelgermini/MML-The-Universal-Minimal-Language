@@ -1,0 +1,84 @@
+{
+  "type": "document",
+  "title": "Patient Medical Record",
+  "metadata": {
+    "Patient ID": "PAT-2025-001",
+    "Name": "John Doe",
+    "Date of Birth": "1980-05-15",
+    "Age": "45 years",
+    "Gender": "Male",
+    "Blood Type": "O+"
+  },
+  "sections": [
+    {
+      "type": "section",
+      "title": "Current Visit",
+      "metadata": {
+        "Date": "2025-11-15",
+        "Reason": "Routine checkup",
+        "Status": "Stable"
+      },
+      "children": []
+    },
+    {
+      "type": "section",
+      "title": "Vital Signs",
+      "metadata": {
+        "Blood Pressure": "120/80 mmHg",
+        "Heart Rate": "72 bpm",
+        "Temperature": "36.5°C",
+        "Weight": "75 kg",
+        "Height": "175 cm"
+      },
+      "children": []
+    },
+    {
+      "type": "section",
+      "title": "Diagnosis",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Patient in good health."
+        },
+        {
+          "type": "paragraph",
+          "content": "No abnormalities detected."
+        },
+        {
+          "type": "paragraph",
+          "content": "All vital signs within normal range."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Prescription",
+      "metadata": {
+        "Medication": "None required",
+        "Follow-up": "2026-05-15"
+      },
+      "children": []
+    },
+    {
+      "type": "section",
+      "title": "Notes",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Patient advised to maintain current lifestyle."
+        },
+        {
+          "type": "paragraph",
+          "content": "Regular exercise recommended."
+        },
+        {
+          "type": "paragraph",
+          "content": "Next appointment scheduled."
+        }
+      ]
+    }
+  ]
+}
+

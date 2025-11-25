@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <title>Simple MML Document</title>
+  <metadata>
+    <author>John Doe</author>
+    <date>2025-11-15</date>
+    <version>1.0</version>
+  </metadata>
+  <sections>
+    <section>
+      <title>Introduction</title>
+      <paragraph>This is a simple example of an MML document.</paragraph>
+      <paragraph>MML stands for Minimal Markup Language.</paragraph>
+    </section>
+    <section>
+      <title>Features</title>
+      <paragraph>Easy to read and write</paragraph>
+      <paragraph>Transmittable by any means</paragraph>
+      <paragraph>Resilient to errors</paragraph>
+    </section>
+  </sections>
+  <links>
+    <link>
+      <text>Learn more</text>
+      <url>https://example.com/mml</url>
+    </link>
+  </links>
+  <quotes>
+    <quote>Remember: Simplicity is key!</quote>
+  </quotes>
+</document>
+

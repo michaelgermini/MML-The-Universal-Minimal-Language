@@ -1,0 +1,34 @@
+T:Patient Medical Record
+M:Patient ID|PAT-2025-001
+M:Name|John Doe
+M:Date of Birth|1980-05-15
+M:Age|45 years
+M:Gender|Male
+M:Blood Type|O+
+
+H:Current Visit
+M:Date|2025-11-15
+M:Reason|Routine checkup
+M:Status|Stable
+
+H:Vital Signs
+M:Blood Pressure|120/80 mmHg
+M:Heart Rate|72 bpm
+M:Temperature|36.5°C
+M:Weight|75 kg
+M:Height|175 cm
+
+H:Diagnosis
+P:Patient in good health.
+P:No abnormalities detected.
+P:All vital signs within normal range.
+
+H:Prescription
+M:Medication|None required
+M:Follow-up|2026-05-15
+
+H:Notes
+P:Patient advised to maintain current lifestyle.
+P:Regular exercise recommended.
+P:Next appointment scheduled.
+

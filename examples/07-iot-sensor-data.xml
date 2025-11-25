@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packet id="SENSOR-ENV-001">
+  <title>Environmental Sensor Data</title>
+  <metadata>
+    <sensorId>ENV-SENSOR-ALPHA-01</sensorId>
+    <location>45.23N,2.45E</location>
+    <timestamp>2025-11-15T14:30:00Z</timestamp>
+    <batteryLevel>87%</batteryLevel>
+  </metadata>
+  <sections>
+    <section>
+      <title>Real-time Readings</title>
+      <metadata>
+        <temperature>23.4°C</temperature>
+        <humidity>65%</humidity>
+        <airQuality>42 µg/m³</airQuality>
+        <pressure>1013.2 hPa</pressure>
+        <lightLevel>850 lux</lightLevel>
+        <noiseLevel>45 dB</noiseLevel>
+      </metadata>
+    </section>
+    <section>
+      <title>Sensor Status</title>
+      <metadata>
+        <status>Operational</status>
+        <lastMaintenance>2025-10-01</lastMaintenance>
+        <nextMaintenance>2025-12-01</nextMaintenance>
+        <signalStrength>85%</signalStrength>
+      </metadata>
+    </section>
+    <section>
+      <title>Alerts</title>
+      <paragraph>Air quality slightly elevated but within acceptable range.</paragraph>
+      <paragraph>No immediate action required.</paragraph>
+    </section>
+  </sections>
+</packet>
+

@@ -1,0 +1,41 @@
+T:Security Incident Report
+M:Incident ID|SEC-2025-001
+M:Date|2025-11-15
+M:Time|14:45:00
+M:Location|Building A - East Wing
+M:Severity|HIGH
+M:Reporter|Security Officer Smith
+
+H:Incident Description
+P:Unauthorized access attempt detected at main entrance.
+P:Individual attempted to bypass security checkpoint.
+P:Security personnel intervened immediately.
+P:No damage or theft reported.
+
+H:Details
+M:Time Detected|14:45:00
+M:Location|Main Entrance - East Wing
+M:Method|Attempted badge cloning
+M:Outcome|Access denied, individual detained
+
+H:Response Actions
+P:Security team alerted immediately.
+P:Individual detained for questioning.
+P:Police notified as per protocol.
+P:Area secured and checked.
+
+H:Follow-up Required
+P:Review security camera footage.
+P:Update access control procedures.
+P:Staff briefing scheduled.
+P:Incident report filed with authorities.
+
+H:Prevention Measures
+P:Enhanced badge verification process.
+P:Additional security personnel assigned.
+P:Access logs reviewed regularly.
+
+Q:All security protocols followed correctly.
+L:Security Camera Footage|cam-east-wing-1445.mp4
+L:Access Logs|access-logs-2025-11-15.csv
+

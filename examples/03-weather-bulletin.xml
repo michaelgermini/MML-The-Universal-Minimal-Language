@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <title>Weather Bulletin</title>
+  <metadata>
+    <station>Weather Station Alpha</station>
+    <date>2025-11-15</date>
+    <time>10:00 UTC</time>
+  </metadata>
+  <sections>
+    <section>
+      <title>Current Conditions</title>
+      <metadata>
+        <temperature>22°C</temperature>
+        <humidity>65%</humidity>
+        <windSpeed>15 km/h</windSpeed>
+        <windDirection>NW</windDirection>
+        <pressure>1013.2 hPa</pressure>
+        <visibility>10 km</visibility>
+      </metadata>
+    </section>
+    <section>
+      <title>Forecast</title>
+      <paragraph>Sunny weather expected throughout the day.</paragraph>
+      <paragraph>Light winds from northwest.</paragraph>
+      <paragraph>No precipitation expected.</paragraph>
+    </section>
+    <section>
+      <title>Warnings</title>
+      <paragraph>None at this time.</paragraph>
+    </section>
+  </sections>
+  <links>
+    <link>
+      <text>Detailed Forecast</text>
+      <url>https://weather.example.com/forecast</url>
+    </link>
+  </links>
+  <images>
+    <image>
+      <description>Weather Map</description>
+      <url>weather-map-2025-11-15.png</url>
+    </image>
+  </images>
+</document>
+

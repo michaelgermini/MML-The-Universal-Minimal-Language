@@ -1,0 +1,17 @@
+T:Simple MML Document
+M:Author|John Doe
+M:Date|2025-11-15
+M:Version|1.0
+
+H:Introduction
+P:This is a simple example of an MML document.
+P:MML stands for Minimal Markup Language.
+
+H:Features
+P:Easy to read and write
+P:Transmittable by any means
+P:Resilient to errors
+
+L:Learn more|https://example.com/mml
+Q:Remember: Simplicity is key!
+

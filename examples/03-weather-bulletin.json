@@ -1,0 +1,69 @@
+{
+  "type": "document",
+  "title": "Weather Bulletin",
+  "metadata": {
+    "Station": "Weather Station Alpha",
+    "Date": "2025-11-15",
+    "Time": "10:00 UTC"
+  },
+  "sections": [
+    {
+      "type": "section",
+      "title": "Current Conditions",
+      "metadata": {
+        "Temperature": "22°C",
+        "Humidity": "65%",
+        "Wind Speed": "15 km/h",
+        "Wind Direction": "NW",
+        "Pressure": "1013.2 hPa",
+        "Visibility": "10 km"
+      },
+      "children": []
+    },
+    {
+      "type": "section",
+      "title": "Forecast",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "Sunny weather expected throughout the day."
+        },
+        {
+          "type": "paragraph",
+          "content": "Light winds from northwest."
+        },
+        {
+          "type": "paragraph",
+          "content": "No precipitation expected."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Warnings",
+      "metadata": {},
+      "children": [
+        {
+          "type": "paragraph",
+          "content": "None at this time."
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "type": "link",
+      "text": "Detailed Forecast",
+      "url": "https://weather.example.com/forecast"
+    }
+  ],
+  "images": [
+    {
+      "type": "image",
+      "description": "Weather Map",
+      "url": "weather-map-2025-11-15.png"
+    }
+  ]
+}
+
