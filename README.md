@@ -204,21 +204,6 @@ All examples are available in three formats for comparison. Here's how MML compa
 
 ### 🛠️ Tools and services
 
-#### **CLI Tools** 💻
-```bash
-# Document validation
-mml-cli validate document.mml
-
-# Format conversion
-mml-cli convert document.mml --to html
-
-# MMLC compression
-mml-cli compress document.mml
-
-# Analysis and statistics
-mml-cli stats document.mml
-```
-
 #### **Interactive Tutorial** 🎓
 ```bash
 # Progressive learning
