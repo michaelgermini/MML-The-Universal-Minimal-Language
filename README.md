@@ -1,10 +1,9 @@
 # MML – The Universal Minimal Language
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/michaelgermini/MML-Minimal-Markup-Language-for-Constrained-Environments-Le-Langage-Minimal-Universel)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/michaelgermini/MML-The-Universal-Minimal-Language)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/michaelgermini/MML-Minimal-Markup-Language-for-Constrained-Environments-Le-Langage-Minimal-Universel/actions)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/michaelgermini/MML-The-Universal-Minimal-Language/actions)
 [![Documentation](https://img.shields.io/badge/docs-complete-blue.svg)](introduction.md)
-[![Tutorial](https://img.shields.io/badge/tutorial-interactive-orange.svg)](tutorial/)
 
 ## Design, Syntax, Architecture, Transmission and Applications of the Minimal Markup Language
 
@@ -40,13 +39,12 @@
 - [Appendix B — Complete Commented MML Document Example](appendices/appendix-b-complete-example.md)
 - [Appendix C — Complete Morse Code Table (ITU)](appendices/appendix-c-morse-table.md)
 - [Appendix D — MML DOM JSON Schema](appendices/appendix-d-dom-schema.md)
-- [Appendix E — Minimal MML Parser Implementation](implementations/)
+- [Appendix E — Minimal MML Parser Implementation](appendices/appendix-e-minimal-parser.md)
 - [Appendix F — MML → MMLC Mapping](appendices/appendix-f-mmlc-mapping.md)
 - [Appendix G — MML/HTML/XML/JSON Comparison](appendices/appendix-g-comparison.md)
 
 ### ADDITIONAL RESOURCES
 - [Practical examples](examples/) - 10 examples in MML, JSON, and XML formats
-- [Implementations](implementations/)
 
 ## 🏗️ MML Architecture
 
@@ -228,7 +226,7 @@ mml-cli stats document.mml
 # Practical exercises
 # 14 achievement badges
 ```
-→ **[Start the tutorial](tutorial/)**
+*Coming soon*
 
 #### **VS Code Extension** 🔧
 ```json
@@ -237,7 +235,7 @@ mml-cli stats document.mml
 // Real-time validation
 // Integrated commands
 ```
-→ **[Install the extension](vscode-extension/)**
+*Coming soon*
 
 ### 📊 Performance benchmarks
 
@@ -307,8 +305,8 @@ We welcome all contributions! Here's how you can participate:
 #### **🔧 Develop code**
 ```bash
 # 1. Fork the repository
-git clone https://github.com/YOUR_USERNAME/MML-Minimal-Markup-Language-for-Constrained-Environments-Le-Langage-Minimal-Universel.git
-cd MML-Minimal-Markup-Language-for-Constrained-Environments-Le-Langage-Minimal-Universel
+git clone https://github.com/YOUR_USERNAME/MML-The-Universal-Minimal-Language.git
+cd MML-The-Universal-Minimal-Language
 
 # 2. Create a branch
 git checkout -b feature/amazing-feature
@@ -358,7 +356,7 @@ Since MML is universal, we encourage translations:
 
 #### **New implementations**
 ```
-implementations/
+implementations/      # Coming soon
 └── [language]/
     ├── src/           # Source code
     ├── tests/         # Unit tests
@@ -370,8 +368,8 @@ implementations/
 
 #### **New tools**
 ```
-bin/                  # CLI tools
-vscode-extension/     # IDE extensions
+bin/                  # CLI tools (coming soon)
+vscode-extension/     # IDE extensions (coming soon)
 ```
 
 ### 📊 Quality metrics
@@ -462,8 +460,8 @@ SOFTWARE.
 
 ### 🚀 Future
 
-- **🔬 International standardization** ([ISO](standards/iso-submission/mml-iso-proposal.md), [IETF](standards/ietf-draft/mml-internet-draft.md))
-- **🏛️ Government and NGO adoption** ([Adoption strategy](standards/adoption-strategy/mml-adoption-strategy.md))
+- **🔬 International standardization** (ISO, IETF - *standards documentation coming soon*)
+- **🏛️ Government and NGO adoption** (*adoption strategy coming soon*)
 - **🤖 Specialized IoT ecosystem** ([MML-IoT](chapters/chapter11-future-ecosystem.md#114-specialized-iot-ecosystem))
 - **🧠 Integrated AI for assistance** ([Embedded AI](chapters/chapter11-future-ecosystem.md#115-embedded-ai-compatibility))
 
