@@ -125,14 +125,16 @@ L:Learn more|https://example.com
 
 ## 🔄 Comparison with existing formats
 
-| Criterion | MML | HTML | XML | JSON | Markdown |
-|-----------|-----|------|-----|------|----------|
-| **Human readability** | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐⭐ |
-| **Compact size** | ⭐⭐⭐ | ⭐ | ⭐ | ⭐⭐ | ⭐⭐⭐ |
-| **Parsing speed** | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
-| **Error resilience** | ⭐⭐⭐ | ⭐ | ⭐ | ⭐ | ⭐⭐ |
-| **Oral transmission** | ⭐⭐⭐ | ❌ | ❌ | ❌ | ⭐⭐ |
-| **Morse Code** | ⭐⭐⭐ | ❌ | ❌ | ❌ | ❌ |
+| Criterion | MML | HTML | XML | JSON | Markdown | LaTeX | YAML | TOML | CSV |
+|-----------|-----|------|-----|------|----------|-------|------|------|-----|
+| **Human readability** | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
+| **Compact size** | ⭐⭐⭐ | ⭐ | ⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐⭐ |
+| **Parsing speed** | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
+| **Error resilience** | ⭐⭐⭐ | ⭐ | ⭐ | ⭐ | ⭐⭐ | ⭐ | ⭐ | ⭐ | ⭐ |
+| **Oral transmission** | ⭐⭐⭐ | ❌ | ❌ | ❌ | ⭐⭐ | ❌ | ❌ | ❌ | ⭐⭐ |
+| **Morse Code** | ⭐⭐⭐ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **Structured data** | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
+| **Metadata support** | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐ |
 
 ### Concrete example: Patient record (89 characters MML)
 ```
@@ -155,6 +157,39 @@ M:Diagnosis|Arm fracture
 **VS JSON (145 characters)** - 38% smaller
 ```json
 {"name":"John Doe","age":"45 years","status":"stable","diagnosis":"Arm fracture"}
+```
+
+**VS YAML (98 characters)** - 9% smaller
+```yaml
+name: John Doe
+age: 45 years
+status: stable
+diagnosis: Arm fracture
+```
+
+**VS LaTeX (187 characters)** - 52% smaller
+```latex
+\documentclass{article}
+\begin{document}
+\section*{John Doe}
+Age: 45 years\\
+Status: stable\\
+Diagnosis: Arm fracture
+\end{document}
+```
+
+**VS TOML (95 characters)** - 6% smaller
+```toml
+name = "John Doe"
+age = "45 years"
+status = "stable"
+diagnosis = "Arm fracture"
+```
+
+**VS CSV (67 characters)** - 25% larger (but less structured)
+```csv
+name,age,status,diagnosis
+John Doe,45 years,stable,Arm fracture
 ```
 
 **Result**: MML works even when **80% damaged**, **transmittable by voice radio** and **Morse compatible** - impossible with other formats!
